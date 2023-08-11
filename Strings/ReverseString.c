@@ -1,18 +1,14 @@
 #include <stdio.h>
+#include <string.h>
 
-void reverseSentence();
+int main()
+{
+   char str[] = "Hello world"; // initialzing a char array
 
-int main() {
-    printf("Enter a sentence: ");
-    reverseSentence();
-    return 0;
-}
+   printf("The string is : %s\n", str); // printing the actual array
 
-void reverseSentence() {
-    char c;
-    scanf("%c", &c);
-    if (c != '\n') {  
-        reverseSentence();
-        printf("%c", c);
-    }
+   strrev(str); // reversing the char array
+
+   printf("The string after using function strrev() is : %s\n", str); // printing the reversed array
+   return 0;
 }
