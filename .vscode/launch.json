@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/egyrh1/Documents/C-Fundamentals",
-      "program": "c:/Users/egyrh1/Documents/C-Fundamentals/build/Debug/outDebug",
+      "program": "${workspaceFolder}",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
