@@ -125,8 +125,8 @@ int main( int argc, char *argv[] ) {
 }
 
 double GetWeeklyPay(double hourly_rate, int hours){
-  int weekly_pay;
-  int tmp;
+  int weekly_pay = 0;
+  int tmp = 0;
 
   if (hours<31){
     weekly_pay = hours * hourly_rate;
